@@ -101,6 +101,7 @@ body{
      margin-left: 50%;
      margin-top: 22%;
      position: absolute;
+     align-items: center;
  }
  
  select{
