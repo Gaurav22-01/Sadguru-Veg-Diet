@@ -14,3 +14,8 @@ function openMenuPage() {
         window.location.href = selectedPage;
     }
 }
+
+function addToCart() {
+    document.getElementById("cartMessage").innerText = "✅ Item added to cart!";
+}
+
