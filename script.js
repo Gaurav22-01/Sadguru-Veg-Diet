@@ -19,3 +19,6 @@ function addToCart() {
     document.getElementById("cartMessage").innerText = "✅ Item added to cart!";
 }
 
+document.getElementById("addToCartBtn").onclick = function () {
+    window.location.href = "payment.html";
+};
